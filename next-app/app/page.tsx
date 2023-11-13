@@ -1,9 +1,4 @@
-import Link from 'next/link'
-
-import { buttonVariants } from '@/components/ui/button'
-
-import { UserModal } from './components/user-modal'
-import UsersTable from './components/users-table'
+import UsersTable from '../components/users-table/users-table'
 
 export default function IndexPage() {
   return (
